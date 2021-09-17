@@ -26,7 +26,6 @@ function forEachObjectToAnimate(item, index){
 }
 
 function processData(data) {
-	console.log(data["name"]);
 	let projects_article = document.getElementById("projects");
 	let section_tag = document.createElement("section");
 	let text = document.createElement("p");
